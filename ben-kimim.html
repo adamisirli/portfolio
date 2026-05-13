@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="tr">
 
 <head>
@@ -42,39 +42,55 @@
   </header>
 
   <main id="main">
-    <section class="profile-hero">
+    <section class="profile-hero about-hero">
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="hero-pattern" aria-hidden="true"></div>
-      <div class="shell profile-hero-content">
-        <p class="eyebrow">Kişisel tanıtım</p>
-        <h1>Ben Kimim?</h1>
-        <p class="hero-copy">
-          Teknolojiye merakımı proje üretme disipliniyle birleştiren, öğrendiklerini uygulamaya dönüştürmeye çalışan
-          bir yazılım geliştirici adayıyım.
-        </p>
-        <div class="hero-actions" aria-label="Sayfa bağlantıları">
-          <a class="button primary" href="index.html#projects" onclick="return smoothGo(event, 'index.html', '#projects')">Projelerime Dön</a>
-          <a class="button secondary" href="index.html#contact" onclick="return smoothGo(event, 'index.html', '#contact')">İletişime Geç</a>
+      <div class="shell profile-hero-content about-hero-content">
+        <div>
+          <p class="eyebrow">Kişisel profil</p>
+          <h1>Ben Kimim?</h1>
+          <p class="hero-copy">
+            Kod yazmayı yalnızca teknik bir beceri olarak değil; problemi anlama, çözümü sadeleştirme ve insanlar için
+            kullanılabilir hale getirme süreci olarak görüyorum.
+          </p>
+          <div class="hero-actions" aria-label="Sayfa bağlantıları">
+            <a class="button primary" href="index.html#projects" onclick="return smoothGo(event, 'index.html', '#projects')">Projelerime Dön</a>
+            <a class="button secondary" href="index.html#contact" onclick="return smoothGo(event, 'index.html', '#contact')">İletişime Geç</a>
+          </div>
         </div>
+        <aside class="profile-summary" aria-label="Ada Mısırlı kısa profil özeti">
+          <div>
+            <span>Odak</span>
+            <strong>Mobil, web ve analiz odaklı yazılım geliştirme</strong>
+          </div>
+          <div>
+            <span>Yaklaşım</span>
+            <strong>Önce ihtiyacı anla, sonra sade ve çalışır çözüm üret</strong>
+          </div>
+          <div>
+            <span>Gönüllülük</span>
+            <strong>ODD'de çocuklara Scratch ve algoritmik düşünme desteği</strong>
+          </div>
+        </aside>
       </div>
     </section>
 
     <section class="section identity-section reveal">
       <div class="shell identity-layout">
         <div>
-          <p class="section-kicker">Yaklaşımım</p>
-          <h2>Öğrenirken üretmeye, üretirken analiz etmeye odaklanıyorum.</h2>
+          <p class="section-kicker">Beni tanımlayan yaklaşım</p>
+          <h2>Analiz, öğrenme ve üretme tarafını birlikte geliştiren bir adayım.</h2>
         </div>
         <div class="identity-card">
           <p>
-            Benim için yazılım yalnızca kod yazmak değil; ihtiyacı anlamak, doğru çözüm yolunu seçmek ve ortaya çıkan
-            ürünü sade bir kullanıcı deneyimiyle sunabilmektir. Bu yüzden hem teknik becerilerimi hem de analiz ve
-            dokümantasyon tarafımı birlikte geliştirmeye önem veriyorum.
+            Bilgisayar Programcılığı eğitimim boyunca farklı teknolojilerle küçük ama öğretici projeler geliştirdim.
+            Benim için önemli olan sadece bir ekran hazırlamak değil; o ekranın hangi ihtiyaca cevap verdiğini, hangi
+            veriyi kullandığını ve kullanıcıya nasıl daha anlaşılır bir deneyim sunduğunu görebilmek.
           </p>
           <p>
-            Mobil uygulama geliştirme, yapay zekâ araçları, veritabanı yapıları ve web arayüzleri özellikle ilgimi
-            çeken alanlar arasında. Yeni bir teknolojiyle karşılaştığımda önce mantığını anlamaya, sonra küçük ve
-            çalışır örneklerle pratiğe dökmeye çalışıyorum.
+            Bu yüzden mobil uygulama, web arayüzü, veritabanı ve sistem analizi taraflarını birbirinden ayrı değil,
+            birbirini tamamlayan parçalar olarak ele alıyorum. NovaCare, Mobile Chess ve analiz projelerimde de bu
+            bakış açısını güçlendirmeye çalışıyorum.
           </p>
         </div>
       </div>
@@ -84,33 +100,65 @@
       <div class="shell detail-grid">
         <article class="detail-card">
           <span class="project-number" aria-hidden="true">01</span>
-          <p class="section-kicker">Çalışma biçimim</p>
-          <h3>Planlı ve sonuç odaklı ilerlerim.</h3>
+          <p class="section-kicker">Çalışma prensibim</p>
+          <h3>Önce problemi netleştiririm.</h3>
           <p>
-            Bir projeye başlarken önce gereksinimleri netleştirmeye, ardından küçük adımlarla çalışan bir yapı kurmaya
-            dikkat ederim. Kodun anlaşılır, düzenli ve sürdürülebilir olmasını önemserim.
+            Bir projeye başlamadan önce kullanıcı ihtiyacını, temel akışı ve hedef çıktıyı anlamaya çalışırım. Bu yaklaşım
+            hem kod yazarken hem de sistem analizi yaparken daha düzenli ilerlememi sağlar.
           </p>
         </article>
 
         <article class="detail-card">
           <span class="project-number" aria-hidden="true">02</span>
-          <p class="section-kicker">Güçlü yönlerim</p>
-          <h3>Analiz, tasarım ve uygulama arasında bağ kurarım.</h3>
+          <p class="section-kicker">Güçlü tarafım</p>
+          <h3>Teknik detayları anlaşılır hale getirmeye önem veririm.</h3>
           <p>
-            Sistem analizi derslerinde öğrendiğim planlama yaklaşımını yazılım projelerine taşımaya çalışıyorum. Böylece
-            sadece çalışan değil, amacı ve kapsamı anlaşılır projeler üretmeyi hedefliyorum.
+            ODD'de çocuklara Scratch eğitimi vermem, teknik bir konuyu karşımdaki kişinin seviyesine göre anlatma
+            becerimi geliştirdi. Bu deneyim, ekip çalışması ve dokümantasyon tarafında da bana katkı sağlıyor.
           </p>
         </article>
 
         <article class="detail-card">
           <span class="project-number" aria-hidden="true">03</span>
-          <p class="section-kicker">Hedefim</p>
-          <h3>Kendimi profesyonel projelere hazırlıyorum.</h3>
+          <p class="section-kicker">Profesyonel hedefim</p>
+          <h3>Üretilebilir ve geliştirilebilir projeler ortaya koymak istiyorum.</h3>
           <p>
-            Kısa vadede staj ve ekip projeleriyle deneyim kazanmak; uzun vadede mobil ve web tabanlı yazılım geliştirme
-            alanlarında güçlü bir portfolyo oluşturmak istiyorum.
+            Kısa vadede staj ve ekip projeleriyle gerçek geliştirme süreçlerini deneyimlemek; uzun vadede mobil ve web
+            tabanlı ürünlerde güçlü, okunabilir ve kullanıcı odaklı çözümler geliştirmek istiyorum.
           </p>
         </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section reveal">
+      <div class="shell timeline-layout">
+        <div>
+          <p class="section-kicker">Gelişim çizgim</p>
+          <h2>Portfolyomu yalnızca sonuçlarla değil, gelişim sürecimle de anlatıyorum.</h2>
+        </div>
+        <div class="timeline-list">
+          <article>
+            <span>01</span>
+            <div>
+              <h3>Temel programlama ve arayüz geliştirme</h3>
+              <p>HTML, CSS, JavaScript, C#, Java ve SQL gibi temel teknolojilerle uygulama mantığını güçlendirdim.</p>
+            </div>
+          </article>
+          <article>
+            <span>02</span>
+            <div>
+              <h3>Mobil ve kullanıcı deneyimi odağı</h3>
+              <p>React Native, Flutter ve mobil arayüz çalışmalarıyla kullanıcı akışı ve ekran tasarımına odaklandım.</p>
+            </div>
+          </article>
+          <article>
+            <span>03</span>
+            <div>
+              <h3>Analiz ve dokümantasyon disiplini</h3>
+              <p>Use case, ER diyagramı, Gantt/CPM ve gereksinim analiziyle projeleri daha planlı ele almayı öğrendim.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
   </main>
@@ -141,9 +189,9 @@
       <div class="footer-group">
         <h2>Bağlantılar</h2>
         <div class="footer-links">
-          <a href="mailto:adamisirli@hotmail.com">E-posta</a>
-          <a href="https://www.linkedin.com/in/kullanici-adi" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/kullanici-adi" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adamisirli33%40gmail.com&su=Portfolyo%20%C4%B0leti%C5%9Fim&body=Merhaba%20Ada%2C%0A%0APortfolyonu%20inceledim%20ve%20seninle%20ileti%C5%9Fime%20ge%C3%A7mek%20istiyorum." target="_blank" rel="noreferrer">E-posta</a>
+          <a href="https://www.linkedin.com/in/ada-m%C4%B1s%C4%B1rl%C4%B1-170723374" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/adamisirli" target="_blank" rel="noreferrer">GitHub</a>
           <a href="cv/ozgecmis.pdf" download>Türkçe CV</a>
           <a href="cv/resume.pdf" download>English CV</a>
         </div>
@@ -160,3 +208,5 @@
 </body>
 
 </html>
+
+

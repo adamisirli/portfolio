@@ -1,43 +1,46 @@
-# MBP 206 Portfolyo Web Sitesi
+# Ada Mısırlı Kişisel Portfolyo
 
-Bu proje, MBP 206 Sistem Analizi ve Tasarımı final yönergesindeki zorunlu portfolyo bölümlerini kapsayan statik bir web sitesi iskeletidir.
+Bu proje Ada Mısırlı için hazırlanmış statik kişisel portfolyo web sitesidir. Site; hakkımda, deneyim, projeler, beceriler, iletişim ve CV bağlantıları gibi bölümleri içerir.
 
-## İçerik
+## Kullanılan Teknolojiler
 
-- Ana sayfa
-- Hakkımda
-- En az 3 proje kartı
-- Teknik ve kişisel beceriler
-- Türkçe ve İngilizce CV indirme bağlantıları
-- E-posta, LinkedIn ve GitHub iletişim bağlantıları
-- Mobil uyumlu tasarım
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages uyumlu statik yapı
 
-## Düzenlenecek Alanlar
+## Temel Özellikler
 
-`index.html` içinde aşağıdaki yerleri kendi bilgilerinizle değiştirin:
+- Responsive portfolyo arayüzü
+- Ana sayfa ve hakkımda sayfası
+- Proje/deneyim bölümleri
+- Türkçe ve İngilizce CV bağlantıları
+- Mobil menü
+- Yerel çalıştırma için yardımcı script ve bat dosyası
+- GitHub Pages için `.nojekyll` ve `CNAME` dosyaları
 
-- `Ad Soyad`
-- `ad.soyad@example.com`
-- `https://github.com/kullanici-adi`
-- `https://www.linkedin.com/in/kullanici-adi`
-- Proje adları, açıklamaları ve GitHub repo linkleri
-- Eğitim, şehir, beceri ve dil seviyesi bilgileri
+## Dosya Yapısı
 
-`cv/ozgecmis.pdf` ve `cv/resume.pdf` dosyalarını kendi güncel CV dosyalarınızla değiştirin.
+- `index.html`: Ana portfolyo sayfası.
+- `ben-kimim.html`: Hakkımda sayfası.
+- `styles.css`: Stil dosyası.
+- `script.js`: Menü ve etkileşim kodları.
+- `serve-local.js`: Yerel sunucu ile test için yardımcı dosya.
+- `siteyi-ac.bat`: Windows üzerinde siteyi hızlı açmak için bat dosyası.
+- `cv/`: Özgeçmiş PDF dosyaları.
 
-## GitHub Pages Yayınlama
+## Çalıştırma
 
-1. Bu klasörü GitHub'da public bir repoya yükleyin.
-2. Repository sayfasında `Settings > Pages` bölümüne girin.
-3. `Deploy from a branch` seçeneğini seçin.
-4. Branch olarak `main`, klasör olarak `/root` seçin.
-5. Yayın linkini CV dosyalarınıza ve portfolyo sitenize ekleyin.
+En basit yöntem:
 
-## Teslim Öncesi Kontrol
+1. `index.html` dosyasını tarayıcıda açın.
 
-- Site internete açık mı?
-- Tüm menü bağlantıları çalışıyor mu?
-- Türkçe ve İngilizce CV indiriliyor mu?
-- En az 3 GitHub repo linki doğru mu?
-- Mobil görünüm kontrol edildi mi?
-- ZIP içinde iki CV PDF dosyası var mı?
+Yerel sunucu ile çalıştırmak için:
+
+```bash
+node serve-local.js
+```
+
+## Yayınlama
+
+Proje GitHub Pages üzerinde yayınlanmaya uygundur. Repository ayarlarında Pages bölümünden ana branch ve root klasörü seçilerek yayınlanabilir.

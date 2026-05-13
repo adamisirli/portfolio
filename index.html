@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="tr">
 
 <head>
@@ -46,30 +46,36 @@
       <div class="hero-bg" aria-hidden="true"></div>
       <div class="hero-pattern" aria-hidden="true"></div>
       <div class="hero-content shell">
-        <p class="eyebrow">Yazılım geliştirici adayı</p>
-        <h1>Ada Mısırlı</h1>
-        <p class="hero-copy">
-          Yazılım geliştirme, yapay zekâ ve mobil uygulama alanlarında kendini geliştiren bir bilgisayar programcılığı
-          öğrencisiyim.
-        </p>
-        <div class="hero-actions" aria-label="Öne çıkan bağlantılar">
-          <a class="button primary" href="#projects" onclick="return smoothGo(event, 'index.html', '#projects')">Projeleri İncele</a>
-          <a class="button secondary" href="ben-kimim.html" target="_blank" rel="noreferrer">Ben Kimim</a>
+        <div class="hero-text">
+          <p class="eyebrow">Yazılım geliştirici adayı</p>
+          <h1>Ada Mısırlı</h1>
+          <p class="hero-copy">
+            Yazılım geliştirme, yapay zekâ ve mobil uygulama alanlarında kendini geliştiren bir bilgisayar programcılığı
+            öğrencisiyim.
+          </p>
+          <div class="hero-actions" aria-label="Öne çıkan bağlantılar">
+            <a class="button primary" href="#projects" onclick="return smoothGo(event, 'index.html', '#projects')">Projeleri İncele</a>
+            <a class="button secondary" href="ben-kimim.html" target="_blank" rel="noreferrer">Ben Kimim</a>
+          </div>
+          <dl class="hero-stats" aria-label="Portfolyo özeti">
+            <div>
+              <dt>10+</dt>
+              <dd>GitHub projesi</dd>
+            </div>
+            <div>
+              <dt>2</dt>
+              <dd>CV dili</dd>
+            </div>
+            <div>
+              <dt>10+</dt>
+              <dd>Teknoloji</dd>
+            </div>
+          </dl>
         </div>
-        <dl class="hero-stats" aria-label="Portfolyo özeti">
-          <div>
-            <dt>3+</dt>
-            <dd>GitHub projesi</dd>
-          </div>
-          <div>
-            <dt>2</dt>
-            <dd>CV dili</dd>
-          </div>
-          <div>
-            <dt>10+</dt>
-            <dd>Teknoloji</dd>
-          </div>
-        </dl>
+        <figure class="hero-portrait" aria-label="Ada Mısırlı profil fotoğrafı">
+          <img src="assets/ada-profile.jpeg" alt="Ada Mısırlı" loading="eager" />
+          <figcaption>Gönüllü eğitmenlik ve yazılım geliştirme odaklı portfolyo</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -81,7 +87,7 @@
         </div>
         <div class="content-stack">
           <p>
-            Bilgisayar Programcılığı eğitimim kapsamında Java, C#, JavaScript, Python, SQL, HTML/CSS, PHP, React
+            Bilgisayar Programcılığı eğitimim kapsamında Java, C#, TypeScript, JavaScript, Python, SQL, HTML/CSS, PHP, React
             Native ve Flutter gibi teknolojiler üzerine kendimi geliştiriyorum.
           </p>
           <p>
@@ -130,42 +136,84 @@
           <article class="project-card">
             <span class="project-number" aria-hidden="true">01</span>
             <div class="project-meta">
-              <span>Web Uygulaması</span>
-              <span>HTML / CSS / JS</span>
+              <span>Sağlık Teknolojisi</span>
+              <span>Web / Mobil Odaklı</span>
             </div>
-            <h3>Kişisel Portfolyo Sitesi</h3>
+            <h3>NovaCare</h3>
             <p>
-              CV, proje vitrini, iletişim bağlantıları ve mobil uyumlu arayüz içeren kişisel portfolyo sitesi.
+              Sağlık kayıtlarına güvenli ve erişilebilir şekilde ulaşmayı hedefleyen NovaCare projesinde kullanıcı
+              deneyimi, veri akışı ve sağlık hizmetlerine dijital erişim odağıyla çalıştım.
             </p>
-            <a href="https://github.com/kullanici-adi/portfolio" target="_blank" rel="noreferrer">GitHub Reposu</a>
+            <a href="https://github.com/adamisirli/NovaCare" target="_blank" rel="noreferrer">GitHub Reposu</a>
           </article>
 
           <article class="project-card">
             <span class="project-number" aria-hidden="true">02</span>
             <div class="project-meta">
-              <span>Sistem Analizi</span>
-              <span>Dokümantasyon</span>
+              <span>Mobil Oyun</span>
+              <span>React Native</span>
             </div>
-            <h3>Online Randevu Sistemi Analizi</h3>
+            <h3>Mobile Chess</h3>
             <p>
-              Kullanıcı rolleri, gereksinimler, kullanım senaryoları ve temel ekran akışları hazırlanan analiz projesi.
+              Mobil cihazlar için geliştirilen satranç odaklı oyun projesinde oyun akışı, kullanıcı etkileşimi,
+              hamle kontrolü ve mobil arayüz deneyimi üzerine çalıştım.
             </p>
-            <a href="https://github.com/kullanici-adi/randevu-sistemi-analizi" target="_blank" rel="noreferrer">GitHub
-              Reposu</a>
+            <a href="https://github.com/adamisirli/wall-chess-mobile" target="_blank" rel="noreferrer">GitHub Reposu</a>
+          </article>
+
+          <article class="project-card project-card-muted">
+            <span class="project-number" aria-hidden="true">03</span>
+            <div class="project-meta">
+              <span>Web Portfolyo</span>
+              <span>Yakında</span>
+            </div>
+            <h3>Yeni Proje Eklenecek</h3>
+            <p>
+              Web portfolyom ve GitHub repolarım geliştikçe bu alana tamamlanmış, README dosyası hazırlanmış ve canlı
+              demo ya da kaynak kod bağlantısı bulunan yeni bir proje eklenecek.
+            </p>
+            <a href="https://github.com/adamisirli" target="_blank" rel="noreferrer">GitHub Profilim</a>
+          </article>
+          <article class="project-card">
+            <span class="project-number" aria-hidden="true">04</span>
+            <div class="project-meta">
+              <span>Masaüstü Arayüz</span>
+              <span>C# / Windows Forms</span>
+            </div>
+            <h3>Eczane Arayüzü</h3>
+            <p>
+              Eczane süreçleri için ürün, stok ve işlem takibini kolaylaştırmaya odaklanan arayüz çalışması. Kullanıcı
+              dostu ekran akışı ve temel yönetim işlemleri ön planda tutuldu.
+            </p>
+            <a href="https://github.com/adamisirli/eczane-arayuzu" target="_blank" rel="noreferrer">GitHub Reposu</a>
           </article>
 
           <article class="project-card">
-            <span class="project-number" aria-hidden="true">03</span>
+            <span class="project-number" aria-hidden="true">05</span>
             <div class="project-meta">
-              <span>Veritabanı</span>
-              <span>SQL</span>
+              <span>Satış Uygulaması</span>
+              <span>C# / SQL</span>
             </div>
-            <h3>Kütüphane Takip Sistemi</h3>
+            <h3>Mağaza Satış Uygulaması</h3>
             <p>
-              Kitap, üye ve ödünç alma süreçleri için tablo yapısı, örnek sorgular ve temel işlem akışları.
+              Mağaza satış işlemleri, ürün yönetimi ve kayıt takibi için geliştirilen uygulama. Satış akışını daha
+              düzenli hale getiren temel ekranlar ve veri yönetimi yapısı üzerine çalışıldı.
             </p>
-            <a href="https://github.com/kullanici-adi/kutuphane-takip" target="_blank" rel="noreferrer">GitHub
-              Reposu</a>
+            <a href="https://github.com/adamisirli/magaza-satis-uygulamasi" target="_blank" rel="noreferrer">GitHub Reposu</a>
+          </article>
+
+          <article class="project-card">
+            <span class="project-number" aria-hidden="true">06</span>
+            <div class="project-meta">
+              <span>Sistem Analizi</span>
+              <span>Veri Analizi</span>
+            </div>
+            <h3>Hotel Booking Analysis</h3>
+            <p>
+              Otel rezervasyon süreci için gereksinim analizi, kullanıcı rolleri, temel senaryolar ve iş akışlarını ele
+              alan analiz çalışması. Sistem tasarımı ve planlama çıktıları odak noktasıdır.
+            </p>
+            <a href="https://github.com/adamisirli/hotel-booking-analysis" target="_blank" rel="noreferrer">GitHub Reposu</a>
           </article>
         </div>
       </div>
@@ -184,47 +232,58 @@
             <ul class="tag-list">
               <li>HTML5</li>
               <li>CSS3</li>
-              <li>Windows Form Application</li>
-              <li>MySQL</li>
-              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Python</li>
               <li>Java</li>
+              <li>C#</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>MySQL</li>
               <li>React Native</li>
               <li>Flutter</li>
-              <li>C#</li>
-              <li>JavaScript</li>
-              <li>Python</li>
-              <li>Veri Analizi</li>
-              <li>SQL</li>
+              <li>Windows Forms</li>
               <li>Git</li>
               <li>GitHub</li>
               <li>Figma</li>
-
             </ul>
           </div>
           <div class="skill-group">
-            <h3>Kişisel</h3>
+            <h3>Analiz ve Proje</h3>
             <ul class="tag-list">
               <li>Gereksinim analizi</li>
-              <li>Problem çözme</li>
-              <li>Dokümantasyon</li>
-              <li>Ekip iletişimi</li>
-              <li>Zaman yönetimi</li>
-              <li>Sunum hazırlama</li>
-              <li>Proje Yönetimi</li>
-              <li>Fizibilite Analizi</li>
               <li>Use case senaryoları</li>
+              <li>ER diyagramı</li>
               <li>Gantt/CPM planlaması</li>
-
+              <li>Fizibilite analizi</li>
+              <li>Backlog yönetimi</li>
+              <li>Veri analizi</li>
+              <li>README hazırlama</li>
+              <li>Teknik dokümantasyon</li>
             </ul>
           </div>
-          <div class="skill-group">
-            <h3>Dil</h3>
-            <ul class="tag-list">
-              <li>Türkçe - Ana dil</li>
-              <li>İngilizce - B1/B2</li>
-                 <li>Almanca - A2</li>
-            </ul>
+          <div class="skill-group split-skill-group">
+            <div>
+              <h3>Kişisel</h3>
+              <ul class="tag-list">
+                <li>Problem çözme</li>
+                <li>Öğretme ve anlatım</li>
+                <li>Ekip iletişimi</li>
+                <li>Zaman yönetimi</li>
+                <li>Sunum hazırlama</li>
+              </ul>
+            </div>
+            <div class="skill-divider" aria-hidden="true"></div>
+            <div>
+              <h3>Dil</h3>
+              <ul class="tag-list">
+                <li>Türkçe - Ana dil</li>
+                <li>İngilizce - B1/B2</li>
+                <li>Almanca - A2</li>
+              </ul>
+            </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
@@ -254,9 +313,9 @@
           <p>Staj, proje ve iş birliği fırsatları için belirtilen kanallardan ulaşabilirsiniz.</p>
         </div>
         <address class="contact-links">
-          <a href="mailto:adamisirli@hotmail.com">adamisirli@hotmail.com</a>
-          <a href="https://www.linkedin.com/in/kullanici-adi" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/kullanici-adi" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adamisirli33%40gmail.com&su=Portfolyo%20%C4%B0leti%C5%9Fim&body=Merhaba%20Ada%2C%0A%0APortfolyonu%20inceledim%20ve%20seninle%20ileti%C5%9Fime%20ge%C3%A7mek%20istiyorum." target="_blank" rel="noreferrer">adamisirli33@gmail.com</a>
+          <a href="https://www.linkedin.com/in/ada-m%C4%B1s%C4%B1rl%C4%B1-170723374" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/adamisirli" target="_blank" rel="noreferrer">GitHub</a>
         </address>
       </div>
     </section>
@@ -288,9 +347,9 @@
       <div class="footer-group">
         <h2>Bağlantılar</h2>
         <div class="footer-links">
-          <a href="mailto:adamisirli@hotmail.com">E-posta</a>
-          <a href="https://www.linkedin.com/in/kullanici-adi" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/kullanici-adi" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adamisirli33%40gmail.com&su=Portfolyo%20%C4%B0leti%C5%9Fim&body=Merhaba%20Ada%2C%0A%0APortfolyonu%20inceledim%20ve%20seninle%20ileti%C5%9Fime%20ge%C3%A7mek%20istiyorum." target="_blank" rel="noreferrer">E-posta</a>
+          <a href="https://www.linkedin.com/in/ada-m%C4%B1s%C4%B1rl%C4%B1-170723374" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/adamisirli" target="_blank" rel="noreferrer">GitHub</a>
           <a href="cv/ozgecmis.pdf" download>Türkçe CV</a>
           <a href="cv/resume.pdf" download>English CV</a>
         </div>
@@ -307,3 +366,11 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
